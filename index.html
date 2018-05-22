@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>modaal venster</title>
+</head>
+<body>
+<h1>Modale vensters</h1>
+<div class="wrapper">
+    <!--button1-->
+    <button id="fotony" class="button"><img src="afb/ny.jpg" alt="plaatje ny" class="plaatjeKlein">
+    </button>
+
+    <!--button2-->
+    <button id="fototokyo" class="button"><img src="afb/tokyo.jpg" alt="plaatje tokyo" class="plaatjeKlein">
+    </button>
+
+    <!--button3-->
+    <button id="fotoistanbul" class="button"><img src="afb/istanbul.jpg" alt="" class="plaatjeKlein"></button>
+</div>
+
+<!--de eerste afbeelding-->
+<div id="nyModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="sluitny">&times;</span>
+            <h2>Mooie foto van New York</h2>
+        </div>
+        <div class="modal-body">
+            <img src="afb/ny.jpg" class="plaatjeGroot" alt="">
+            <div class="links">
+                <h2>New York</h2>
+                <p>
+                    New York ligt in het Noord-Oosten van De Verenigde Staten van Amerika. De stad staat bekend om Het Vrijheidsbeeld en de hoge gebouwen.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--de tweede afbeelding-->
+<div id="tokyoModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="sluittokyo">&times;</span>
+            <h2>Mooi plaatje van Tokyo</h2>
+        </div>
+        <div class="modal-body">
+            <img src="afb/tokyo.jpg" class="plaatjeGroot" alt="">
+            <div class="links">
+                <h2>Tokyo</h2>
+                <p>
+                  Tokyo ligt in Japan en is een mooie kleurrijke stad die ook heel erg druk is.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--de derde afbeelding-->
+<div id="istanbulModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="sluitistanbul">&times;</span>
+            <h2>Mooi plaatje van Istanbul</h2>
+        </div>
+        <div class="modal-body">
+            <div class="links">
+                <h2>Istanbul</h2>
+                <p>
+                  Istanbul is een erg mooie stad, Ik kom er zelf ook vandaan en ik ga er elk jaar naartoe.</p>
+            </div>
+            <img src="afb/istanbul.jpg" class="plaatjeGroot" alt="">
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
